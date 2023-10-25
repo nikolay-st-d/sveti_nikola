@@ -40,7 +40,7 @@ echo '</div">';
             $images = glob($directory . "/*.webp");
             foreach($images as $image)
             {
-            echo '<a href="'.$image.'" data-lightbox="gallery" title="Къща Свети Никола"><div class="gallery_thumbs"><img src="'.$image.'" alt="Къща за гости Свети Никола - Жеравна" /></div></a>';
+            echo '<a href="'.$image.'" data-lightbox="gallery" title="Къща Свети Никола - Жеравна"><div class="gallery_thumbs"><img src="'.$image.'" alt="Къща за гости Свети Никола - Жеравна" /></div></a>';
             }
             ?>
         </div>
