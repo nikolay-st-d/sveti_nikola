@@ -1,5 +1,6 @@
 # sveti_nikola
-Website of St. Nikolas guest house
+Website of St. Nikolas guest house (BG)
+
 https://www.svetinikola.jeravna.com
 
 Simple, fast and secure static website with pure HTML and CSS. 
