@@ -301,17 +301,18 @@ h3 {
 	display: flex;
 	margin: 15px;
 	overflow: hidden;
+	border: 1px solid #3b3b3b;
+	transition: 0.4s ease;
+}
+.gallery_thumbs:hover {
+	opacity: 0.8;
+	border: 1px solid #e47a24;
 }
 .gallery_thumbs img {
 	max-width: 100%;
     max-height: 100%;
     display: block;
 	object-fit: cover;
-	transition: 0.4s ease;
-}
-.gallery_thumbs img:hover {
-	transform: scale(1.1);
-	transition: 0.4s ease;
 }
 .small_text {
 	font-size: 14px;
