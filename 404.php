@@ -25,7 +25,6 @@ $description = 'Галерия снимки от къща за гости Све
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/lightbox.min.css">
 </head>
 <?php
 echo '<body>';
@@ -34,26 +33,20 @@ include("includes/header.php");
 echo '</div">';
 ?>
 <div class="container">
-    <div class="gallery_header">
-        <h1>Галерия снимки</h1>
-        <h2>Къща за гости СВЕТИ НИКОЛА - Жеравна</h2>
-        <p class="small_text">СЪВЕТ: Ако разглеждате галерията на компютър, натиснете F11 за да преминете на Full Screen
-            режим и да виждате още по-големи снимки.</p>
-        <div class="gallery">
-            <?php
-            $directory = "gallery";
-            $images = glob($directory . "/*.webp");
-            foreach ($images as $image) {
-                echo '<a href="' . $image . '" data-lightbox="gallery" title="Къща Свети Никола - Жеравна"><div class="gallery_thumbs"><img src="' . $image . '" alt="Къща за гости Свети Никола - Жеравна" /></div></a>';
-            }
-            ?>
+    <div class="main-full-height">
+        <div class="main_left">
+            <h1>ERROR 404</h1>
+            <h2>Търсената страница не е намерена на сървъра!</h2>
+            <p>Моля, използвайте менюто, за да откриете търсената от Вас информация.</p>
+        </div>
+        <div class="main_right">
+            <img src="images/sn_01.webp" alt="Къща Свети Никола - Жеравна" title="Къща Свети Никола - Жеравна" />
         </div>
     </div>
 </div>
 
 </div>
 <?php include("includes/footer.php"); ?>
-<script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
