@@ -11,7 +11,7 @@ $description = 'Галерия снимки от къща за гости Све
     </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="<?php echo $description; ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" type="text/css">
     <META NAME="ROBOTS" content="index, follow">
     <meta name="GOOGLEBOT" content="index, follow">
@@ -29,9 +29,7 @@ $description = 'Галерия снимки от къща за гости Све
 </head>
 <?php
 echo '<body>';
-echo '<div class="container">';
 include("includes/header.php");
-echo '</div">';
 ?>
 <div class="container">
     <div class="gallery_header">
