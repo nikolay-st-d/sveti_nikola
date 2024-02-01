@@ -8,14 +8,14 @@ include("includes/header.php");
 <div id="home" class="container">
 	<div class="main-full-height">
 		<div class="home_photo">
-			<h1>Къща за гости СВЕТИ&nbsp;НИКОЛА Жеравна</h1>
+			<h1>Къща за гости СВЕТИ НИКОЛА Жеравна</h1>
 		</div>
 	</div>
 </div>
-<div id="about" class="container">
+<section id="about" class="container">
 	<div class="main-full-height">
 		<div class="main_left">
-			<h2>СВЕТИ НИКОЛА - къща за гости в Жеравна</h2>
+			<h2>ЗА КЪЩАТА</h2>
 			<p><strong>Къща за гости "Свети Никола" в Жеравна</strong> носи името на покровителя на Жеравна -
 				Свети&nbsp;Никола и <a target="_blank" title="Църква Св. Никола - Жеравна"
 					href="https://www.jeravna.com/museums.php">едноименната църква</a> в селото*.</p>
@@ -31,9 +31,9 @@ include("includes/header.php");
 			<img src="images/sn_01.webp" alt="Къща Свети Никола - Жеравна" title="Къща Свети Никола - Жеравна">
 		</div>
 	</div>
-</div>
-<div id="offer" class="container">
-	<div class="main-full-height-2">
+</section>
+<section id="offer" class="container">
+	<div class="main-full-height">
 		<div class="main_left">
 			<h2>УСЛОВИЯ</h2>
 			<p>Къщата предлага на своите гости:<br>
@@ -53,8 +53,8 @@ include("includes/header.php");
 			<img src="images/sn_02.webp" alt="Къща Свети Никола - Жеравна" title="Къща Свети Никола - Жеравна">
 		</div>
 	</div>
-</div>
-<div id="prices" class="container">
+</section>
+<section id="prices" class="container">
 	<div class="main-full-height">
 		<div class="main_left">
 			<h2>ЦЕНИ</h2>
@@ -74,9 +74,9 @@ include("includes/header.php");
 			<img src="images/sn_03.webp" alt="Къща Свети Никола - Жеравна" title="Къща Свети Никола - Жеравна">
 		</div>
 	</div>
-</div>
-<div id="contact" class="container">
-	<div class="main-full-height-2">
+</section>
+<section id="contact" class="container">
+	<div class="main-full-height">
 		<div class="main_left">
 			<h2>КОНТАКТИ</h2>
 			<p>Телефони за контакти и резервации:
@@ -87,7 +87,7 @@ include("includes/header.php");
 			<img src="images/sn_04.webp" alt="Къща Свети Никола - Жеравна" title="Къща Свети Никола - Жеравна">
 		</div>
 	</div>
-</div>
+</section>
 <?php include("includes/footer.php"); ?>
 </body>
 

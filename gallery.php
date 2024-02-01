@@ -34,15 +34,16 @@ include("includes/header.php");
 <div class="container">
     <div class="gallery_header">
         <h1>Галерия снимки</h1>
-        <h2>Къща за гости СВЕТИ НИКОЛА - Жеравна</h2>
-        <p class="small_text">СЪВЕТ: Ако разглеждате галерията на компютър, натиснете F11 за да преминете на Full Screen
-            режим и да виждате още по-големи снимки.</p>
+        <div class="small_text">СЪВЕТ: Ако разглеждате галерията на компютър, натиснете F11 за
+            да преминете на Full Screen
+            режим и да виждате още по-големи снимки.</div>
         <div class="gallery">
             <?php
             $directory = "gallery";
             $images = glob($directory . "/*.webp");
             foreach ($images as $image) {
-                echo '<a href="' . $image . '" data-lightbox="gallery" title="Къща Свети Никола - Жеравна"><div class="gallery_thumbs"><img src="' . $image . '" alt="Къща за гости Свети Никола - Жеравна" /></div></a>';
+                //echo '<a href="' . $image . '" data-lightbox="gallery" title="Къща Свети Никола - Жеравна"><div class="gallery_thumbs"><img src="' . $image . '" alt="Къща за гости Свети Никола - Жеравна" /></div></a>';
+                echo '<div class="gallery_thumbs"><a href="' . $image . '" data-lightbox="gallery" title="Къща Свети Никола - Жеравна"><img src="' . $image . '" alt="Къща за гости Свети Никола - Жеравна" /></a></div>';
             }
             ?>
         </div>

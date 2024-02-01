@@ -26,10 +26,10 @@ function getUserIP()
   return $ip;
 }
 // IP logger
-$ip_addr = getUserIP();
-$page_uri = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$data = $ip_addr . '|' . date("Y-m-d H:i:s") . '|' . $page_uri . '' . PHP_EOL;
-$file = fopen('vis_log.txt', 'a+');
-fwrite($file, $data);
-fclose($file);
+// $ip_addr = getUserIP();
+// $page_uri = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+// $data = $ip_addr . '|' . date("Y-m-d H:i:s") . '|' . $page_uri . '' . PHP_EOL;
+// $file = fopen('vis_log.txt', 'a+');
+// fwrite($file, $data);
+// fclose($file);
 ?>
