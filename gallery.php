@@ -1,5 +1,5 @@
 <?php
-$title = 'Галерия | Kъща за гости Свети Никола';
+$title = 'Галерия от Kъща за гости Свети Никола - Жеравна';
 $description = 'Галерия снимки от къща за гости Свети Никола - Жеравна. Разгледайте прекрасните гледки от къщата и природата наоколо.';
 ?>
 <!DOCTYPE html>
@@ -18,8 +18,6 @@ $description = 'Галерия снимки от къща за гости Све
     <meta name="language" content="Български">
     <meta http-equiv="content-language" content="bg">
     <link rel="shortcut icon" href="images/favicon.png" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"
-        type="text/css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +31,8 @@ include("includes/header.php");
 ?>
 <div class="container">
     <div class="gallery_header">
-        <h1>Галерия снимки</h1>
+        <h1>Къща за гости Св. Никола - Жеравна</h1>
+        <h2>Галерия снимки</h2>
         <div class="small_text">СЪВЕТ: Ако разглеждате галерията на компютър, натиснете F11 за
             да преминете на Full Screen
             режим и да виждате още по-големи снимки.</div>
