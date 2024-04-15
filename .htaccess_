@@ -1,0 +1,30 @@
+RewriteEngine On
+RewriteBase /
+
+ErrorDocument 404 /404.php
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+rewritecond %{http_host} ^svetinikola.jeravna.com [nc]
+rewriterule ^(.*)$ https://www.svetinikola.jeravna.com/$1 [r=301,nc]
+
+# Redirect index files to root
+RewriteCond %{THE_REQUEST} ^.*/index.php 
+RewriteRule ^(.*)index.php$ /$1 [QSD,R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.htm 
+RewriteRule ^(.*)index.htm$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.html 
+RewriteRule ^(.*)index.html$ /$1 [R=301,L]
+
+# cache 1 Month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|webp)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+# Permanent redirects
+Redirect 301 /about.html /#about
+Redirect 301 /contacts.html /#contact
+Redirect 301 /gallery.html /gallery.php
+Redirect 301 /gallery2.html /gallery.php
+Redirect 301 /prices.html /#prices
