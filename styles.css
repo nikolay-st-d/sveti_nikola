@@ -58,6 +58,7 @@ p {
 h1 {
   font-weight: 700;
   font-size: 2em;
+  line-height: 1.2em;
   text-shadow: 2px 2px 2px #242424;
   margin-top: 1em;
   margin-bottom: 0.7em;
