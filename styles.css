@@ -20,6 +20,8 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 15vh;
   box-sizing: border-box;
+  scroll-snap-type: y proximity;
+
 }
 @media (min-width: 450px) {
   html {
@@ -54,6 +56,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   background-color: #f8f5eb;
+  scroll-snap-align: start;
 }
 h1 {
   font-weight: 700;

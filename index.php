@@ -77,6 +77,9 @@ include("includes/header.php");
 			<p>Телефони за контакти и резервации:
 			<p><a href="tel:0889887842"><i class="fa-solid fa-phone-volume"></i> 088 988 78 42</a></p>
 			<p><a href="tel:0889887852"><i class="fa-solid fa-phone-volume"></i> 088 988 78 52</a></p>
+			<p><a rel="nofollow" target="_blank" href="https://maps.app.goo.gl/Qf3Xbxu8H8zVd1tu6"
+					title="Локация на къща за гости Свети Никола Жеравна">
+					<i class="fa-solid fa-location-dot"></i> Локация на къщата (Google Maps)</a></p>
 		</div>
 		<div class="main_right">
 			<img src="images/sn_04.webp" alt="Къща Свети Никола - Жеравна" title="Къща Свети Никола - Жеравна">
